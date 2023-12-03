@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  background-color: rgb(66, 0, 0);
+  font-weight: 700;
+}
+
+a {
+  font-size: 150%;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(206, 49, 28);
+  scale: 101%;
+  opacity: 0.7;
+}
+
+
+
+body {
+  background-color: rgba(255, 229, 133, 0.468);
+}
+
+.titre {
+  color: aliceblue;
+}
+.icon {
+  color: aliceblue;
+}
+
+.gryff > img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.end {
+  display: flex;
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 2%;
+
+  color: rgb(0, 0, 0);
+  @media screen and (max-width: 1000px) {
+    color: red;
+  }
+}
+
+h2 {
+  border-bottom: 2px solid rgb(158, 136, 9);
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+  padding-top: 1%;
+  padding-bottom: 4%;
+  font-weight: 500;
+}
+
+
+h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+p {
+  padding-left: 12%;
+  padding-right: 12%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.dada {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.click {
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.rat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.harry {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+display: flex;
+justify-content: center;
+}
